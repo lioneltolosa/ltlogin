@@ -1,0 +1,30 @@
+{
+  "name": "ltlogin",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "~1.17.1",
+    "connect-ensure-login": "^0.1.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "^2.3.3",
+    "express": "~4.15.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.11.3",
+    "express-validator": "^4.2.1",
+    "flash": "^1.1.0",
+    "hbs": "~4.0.1",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.13",
+    "morgan": "~1.8.1",
+    "passport": "^0.2.2",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "~2.4.2",
+    "session": "^0.1.0"
+  }
+}
